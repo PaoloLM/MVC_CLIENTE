@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <br />
+    <hr />
+    <br />
+
+    <div>
+        <a href="~/Service/HolaMundo">Hola Mundo</a>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div>
+        <a href="~/Service/AdiosMundo">Adios Mundo</a>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div>
+        <h3>Suma de numeros</h3>
+        <form method="post" action="Suma">
+            <input type="number" name="numero1" placeholder="Numero 1" />
+            <input type="number" name="numero2" placeholder="Numero 2" />
+            <button>Sumar Numeros</button>
+        </form>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div>
+        <h3>Tabla de multiplicar</h3>
+        <form method="post" action="Tabla">
+            <input type="number" name="numero" placeholder="Numero" />
+            <button>Calcular su Tabla</button>
+        </form>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div>
+        <h3>Calcular Años Bisisestos</h3>
+        <form method="post" action="Bisiesto">
+            <input type="number" name="fechainicial" placeholder="Fecha inicial" />
+            <input type="number" name="fechafinal" placeholder="Fecha final" />
+            <button>Calcular Bisisestos</button>
+        </form>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div>
+        <h3>Operaciones Aritmeticas</h3>
+        <form method="post" action="Tipo">
+            <input type="number" name="numero1" placeholder="Numero 1" />
+            <input type="number" name="numero2" placeholder="Numero 2" />
+
+            <label for="cars">Escoge una Operacion:</label>
+
+            <select name="Tipo" id="TTipo">
+                <option value="1">Suma</option>
+                <option value="2">Resta</option>
+                <option value="3">Multiplicacion</option>
+                <option value="4">Division</option>
+            </select>
+
+            <button>Calcular Operacion</button>
+        </form>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+</body>
+</html>
